@@ -10,6 +10,7 @@ Queue has limited capacity, requiring proper synchronization.
 Ensures safe access to the shared resource without race conditions.
 
 Scenario 2: Concurrent Banking System
+
 Handles safe money transfers between multiple bank accounts.
 Implements transaction safety and deadlock avoidance.
 Supports fair access (first-come, first-served) to accounts.
@@ -17,6 +18,7 @@ Allows concurrent reads without blocking transactions.
 Provides rollback mechanism in case of failed transfers.
 
 Scenario 3: University Bathroom Simulation
+
 Models limited bathroom stalls with multiple users (students & employees).
 Tracks stall availability and manages waiting users.
 Ensures stalls are not double-occupied.
@@ -25,7 +27,5 @@ Includes exception handling for invalid stall/user configurations.
 🛠️ Technologies Used
 
 Java (Multithreading, Concurrency utilities)
-
 Synchronization mechanisms: Locks, Queues, Monitors
-
 Exception Handling
